@@ -3,10 +3,11 @@
 body {
     background-color: black;
     color: white;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Verdana, sans-serif;
     text-align: center;
     font-size: 16px;
 }
+
 
 h1 {
     font-size: 50px;
@@ -19,4 +20,21 @@ h2 {
 
 a:link{
     color: aquamarine;
+}
+
+.travel p,
+footer p {
+    color: gray;
+}
+
+/* section styles*/
+
+.travel p {
+    font-size: 21px;
+}
+
+/* footer styles*/
+
+footer p {
+    text-align: right;
 }
